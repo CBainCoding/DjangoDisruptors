@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     "allauth.socialaccount",
     "about",
     "core",
+    "dashboard",
     "item",
     ]
 
