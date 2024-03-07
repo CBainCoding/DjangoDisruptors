@@ -54,6 +54,7 @@ INSTALLED_APPS = [
     "about",
     "core",
     "conversation",
+    "dashboard",
     "item",
    
     ]
