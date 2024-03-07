@@ -50,6 +50,7 @@ INSTALLED_APPS = [
     "about",
     "core",
     "item",
+    "conversation",
     ]
 
 SITE_ID = 1
