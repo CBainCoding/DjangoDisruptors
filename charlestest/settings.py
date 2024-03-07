@@ -35,6 +35,10 @@ DEBUG = "DEBUG" in os.environ
 ALLOWED_HOSTS = [".gitpod.io", ".herokuapp.com"]
 CSRF_TRUSTED_ORIGINS = ["https://*.gitpod.io", "https://*.herokuapp.com"]
 
+LOGIN_URL = '/login/'
+LOGIN_REDIRECT_URL = '/'
+LOGOUT_REDIRECT_URL = '/'
+
 # Application definition
 
 INSTALLED_APPS = [
