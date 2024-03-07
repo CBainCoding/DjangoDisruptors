@@ -1,13 +1,36 @@
-from django.shortcuts import render, get_object_or_404
+from django.contrib.auth.decorators import login_required
+from django.shortcuts import render, get_object_or_404, redirect
+from django.db.models import Q
+from .forms import NewItemForm, EditItemForm
+from .models import Category, Item
 
-from .models import Item
+
 
 # Create your views here.
 
 def items(request):
-    # Your view logic for the 'items' page goes here
-    return render(request, 'item/items.html')
+    query = request.GET.get('query', '')
+    category_id = request.GET.get('category', 0)
+    categories = Category.objects.all()
+    items = Item.objects.filter(is_sold=False)
 
+    if category_id:
+        items = items.filter(category_id=category_id)
+
+
+    if query:
+        items = items.filter(Q(name__icontains=query) | Q(description__icontains=query))
+
+
+    return render(request, 'item/items.html', {
+        'items': items,
+        'query': query,
+        'categories': categories,
+        'category_id': int(category_id)
+    })
+
+
+    
 
 
 def detail(request, pk):
@@ -17,9 +40,29 @@ def detail(request, pk):
         'item': item
     })
     
+@login_required
 def new(request):
-    # Your view logic for the 'new' page goes here
-    return render(request, 'item/new.html')
+    if request.method == 'POST':
+        form = NewItemForm(request.POST, request.FILES)
+
+        if form.is_valid():
+            item = form.save(commit=False)
+            item.created_by = request.user
+            item.save()
+
+            return redirect('item:detail', pk=item.id)
+    else:
+        form = NewItemForm()
+
+    return render(request, 'item/form.html', {
+        'form': form,
+        'title': 'New item',
+    })
+    
+
+
+
+
 
 def delete(request, pk):
 

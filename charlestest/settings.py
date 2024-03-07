@@ -53,8 +53,10 @@ INSTALLED_APPS = [
     "allauth.socialaccount",
     "about",
     "core",
+    "conversation",
     "dashboard",
     "item",
+   
     ]
 
 SITE_ID = 1
