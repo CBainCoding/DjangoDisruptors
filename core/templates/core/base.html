@@ -12,9 +12,11 @@
     <nav class="py-6 px-6 flex justify-between items-center border-purple-950 border-opacity-75
     border-4">
 
-     <div class="grid-rows-2 px-10 text-purple-950">
-        <h1 href="/" class="text-2xl mb-2 font-semibold tracking-widest" >College-Shop</h1>
-        <h2 href="/" class="text-lg font-normal italic px-6 tracking-wide" >Marketplace</h2>
+    <a href="/" class="px-6 py-6 text-xl font-semibold text-purple-950 bg-purple-100 rounded-xl hover:text-purple-200">
+        <div class="">College-Shop</div> 
+        <div class="text-lg italic tracking-wide">Marketplace</div>
+    </a>
+        
      </div>
 
         <div class="space-x-6">
@@ -24,7 +26,9 @@
             {% if request.user.is_authenticated %}
             <a href= "{% url 'conversation:inbox' %}" class="px-6 py-3 text-lg font-semibold bg-teal-500 text-white rounded-xl hover:bg-teal-700">Inbox</a>
             <a href="{% url 'dashboard:index' %}" class="px-6 py-3 text-lg font-semibold bg-gray-500 text-white rounded-xl hover:bg-gray-700">Dashboard</a>
+            <a href="{% url 'core:login' %}" class="px-6 py-3 text-lg font-semibold bg-gray-500 text-white rounded-xl hover:bg-gray-700">Log out</a>
             {% else %}
+    
                 <a href= "{% url 'core:signup' %}" class="px-6 py-3 text-lg font-semibold bg-teal-500 text-white rounded-xl hover:bg-teal-700">Sign Up</a>
                 <a href="{% url 'core:login' %}" class="px-6 py-3 text-lg font-semibold bg-gray-500 text-white rounded-xl hover:bg-gray-700">Login</a>
             {% endif %}    
@@ -44,8 +48,8 @@
                 College-Shop Marketplace is a very dedicated online platform 
                 designed to connect members of our college community through
                 a convenient and secure marketplace. Whether you're a student
-                looking to buy or sell textbooks, furniture, electronics, or 
-                services,this the go-to destination for all your requirements.
+                looking to buy or sell textbooks, shoes, clothes, or sunglasses,
+                this the go-to destination for all your requirements.
             </p>
         </div>
 
