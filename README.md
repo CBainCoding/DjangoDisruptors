@@ -118,10 +118,9 @@ Images on heroku deployment sometimes stop displaying and need to be added back 
 ## Deployment
 
 - The site was deployed to Heroku pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+  - Link Heroku to github repo
   - Config vars will also need a database URL and cloud storage URL
+  - Navigate to heroku deploy tab, at the bottom of the page click "Deploy" and select the branch to deploy from
 
 The live link can be found here - https://ci-charles-hackathon-b6384b215110.herokuapp.com/
 
