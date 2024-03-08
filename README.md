@@ -14,22 +14,24 @@ In this section, you should go over the different parts of your project, and des
 ### Existing Features
 
 ⦁	List items/services  for sale
-
+ 
+  - Our landing page Displays each product listed
 
 ⦁	Find items/services
-
+  - The User can scroll throguh the landing page which showcases various products
 
 ⦁	Sign up and Login
+  - We have a Sign up and Log in Feature in our Nav bar
 
 
 ⦁	Product Listing showing description, price and category
-
+  - Products have Prices, a brief description and have Category tags.
 
 ⦁	Search Function
-
+ - We have a Search bar to help Users find there desired product, and users can also search Via categories
 
 ⦁	Message Function
-
+  - Users can click on products listed and then Contact the sellers via Instant message, with an Inbox feature included in the Nav bar.
 
 ### Features Left to Implement
 
