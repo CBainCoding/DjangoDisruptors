@@ -91,16 +91,11 @@ As a "Site Admin" I can "access all listings" so that "I can contact seller and 
 
 ## Testing 
 
-(Briefly talk about testing for responsiveness on mobile/desktop.  Show Images using lighthouse tools on desktop and mobile)
-Img #
+Our product has been tested for desktop use. The site is mobile friendly however some features are not yet responsive 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+The screenshot below illustrates the conversation app testing. it works as intended
+(ADD IMAGE OF CONVERSATION)
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 
 ### Validator Testing 
@@ -151,12 +146,12 @@ CSS - https://tailwindcss.com/
 
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
 - Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-
+- ChatGPT
+  
 ### Media
 
-- The photos used on the home page are from This Open Source site
-- The images used for the Product page were taken from this other open source site
+- The photos used on the home page are from Freepix  
+  (https://www.freepik.com/)
+
 
