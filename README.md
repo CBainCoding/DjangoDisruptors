@@ -1,11 +1,15 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 Disruptor Market
+
 Disruptor-Market is a College Marketplace created to help those in the College connect and sell products without the need for an external Site.
+
 Landing Page:
 
 Landing Image []
+
 UX:
+
 Wireframe []
 
 Mobile Wireframe []
@@ -21,6 +25,7 @@ Database Diagram []
 This was made using https://www.lucidchart.com/pages/ and was designed to fit the MVP.
 
 The navbar is clear at the top making each option easily accessible to users. There is also a Search function that encourages users to directly search for items, and also categories to help them navigate to areas of interest. The Design is made to hit the MVP, but the Minimalistic Design works in the websites favour as it doesn't show an overwhelming amount of information on the first view, helping to avoid decision fatigue.
+
 Features:
 
 ⦁	List items/services  for sale
@@ -59,6 +64,7 @@ First-bug img #
 
 Deployment:
 (Show Successful Deployment from Heroku)
+
 Credits:
 Authors:
 Charles Bain
