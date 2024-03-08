@@ -128,6 +128,7 @@ As a "Site Admin" I can "access all listings" so that "I can contact seller and 
 Known Bugs:
 
 One of the bugs we encountered was on the Deadline day, We were aware of this and planned to investigate but didn't have time so it will be left for a future update.
+
 First-bug img #
 
 Deployment:
