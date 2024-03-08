@@ -41,7 +41,6 @@ Features:
 User Stories:
 
 User Story #1:
-
 View Item Listings 
 As a "site user", I can "view a item listings for purchase" so that "I can select which item I want to buy."
 
@@ -78,7 +77,7 @@ Configurations:
 
 Testing:
 
-(Briefly talk about testing for responsiveness on mobile/desktop.  SHow Images using lighthouse tools on desktop and mobile)
+(Briefly talk about testing for responsiveness on mobile/desktop.  Show Images using lighthouse tools on desktop and mobile)
 Img #
 
 User Stories Testing:
