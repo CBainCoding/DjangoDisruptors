@@ -4,9 +4,6 @@
 Disruptor-Market is a College Marketplace created to help those in the College connect and sell products without the need for an external Site.
 You can browse listed items, put up your own products and contact the seller.
 
-
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
-
 ## Features 
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
@@ -35,7 +32,9 @@ In this section, you should go over the different parts of your project, and des
 
 ### Features Left to Implement
 
-- Another feature idea
+-Improve mobile responsiveness
+-Improve "price" display, £ symbol and additional decimal point
+-Buying/selling through the website
 
 ### UX:
 
@@ -47,9 +46,13 @@ Mobile Wireframe [![Mobile wireframe](https://github.com/CBainCoding/DjangoDisru
 
 These are the wireframes for both Desktop and Mobile View, we strived to make them as accurate as possible on the deployed Website.
 
-Colour Palette Img #
+
+![Colour palette](https://github.com/CBainCoding/DjangoDisruptors/assets/152522470/77fc247f-658d-45a1-bcc0-0ec4452a4d59)
+
 
 The Colours were picked to be easy on the eyes and not too flashy, making a good contrast between text and background, enhancing readability. The site is also built to be simple and easy to navigate, also making it easy for users to list there Products.
+
+
 
 Database Diagram [![Database Diagram](https://github.com/CBainCoding/DjangoDisruptors/assets/152522470/0bc23ed8-2178-4c8e-bc71-a0e48c975a06)
 ]
@@ -97,16 +100,11 @@ As a "Site Admin" I can "access all listings" so that "I can contact seller and 
 Our product has been tested for desktop use. The site is mobile friendly however some features are not yet responsive 
 
 The screenshot below illustrates the conversation app testing. it works as intended
-(ADD IMAGE OF CONVERSATION)
+
+![Conversation](https://github.com/CBainCoding/DjangoDisruptors/assets/152522470/48230d5a-74d4-45dd-8172-8ecd06d9221b)
 
 
 
-### Validator Testing 
-
-- HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
-- CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
 ### Unfixed Bugs
 
@@ -114,16 +112,16 @@ One of the bugs we encountered was on the Deadline day, We were aware of this an
 
 ![Tailwind bug](https://github.com/CBainCoding/DjangoDisruptors/assets/152522470/8e3fb3b3-2e59-4ace-be37-1d64f2e818c7)
 
+Images on heroku deployment sometimes stop displaying and need to be added back in. Possible bug with cloudinary storage
 
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
-
 - The site was deployed to Heroku pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
   - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+  - Config vars will also need a database URL and cloud storage URL
 
 The live link can be found here - https://ci-charles-hackathon-b6384b215110.herokuapp.com/
 
@@ -150,7 +148,6 @@ CSS - https://tailwindcss.com/
 
 ### Content 
 
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
 - ChatGPT
   
 ### Media
