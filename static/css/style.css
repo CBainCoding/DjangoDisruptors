@@ -1,3 +1,17 @@
 body {
     background-color: red;
 }
+
+/* Normal styling for larger screens */
+.space-x-6 a {
+    display: inline-block;
+}
+
+/* Media query for screens smaller than 768px (adjust as needed) */
+@media (max-width: 768px) {
+    /* Reset display property for smaller screens */
+    .space-x-6 a {
+        display: block;
+        margin-bottom: 10px; /* Adjust spacing between stacked buttons */
+    }
+}
