@@ -117,7 +117,8 @@ If this section grows too long, you may want to split it off into a separate fil
 
 One of the bugs we encountered was on the Deadline day, We were aware of this and planned to investigate but didn't have time so it will be left for a future update.
 
-First-bug img #
+![Tailwind bug](https://github.com/CBainCoding/DjangoDisruptors/assets/152522470/8e3fb3b3-2e59-4ace-be37-1d64f2e818c7)
+
 
 
 ## Deployment
