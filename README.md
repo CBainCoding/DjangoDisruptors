@@ -139,13 +139,18 @@ Credits:
 Authors:
 
 Charles Bain
+
 Sharon Simpson
+
 Caelum Johnson
 
 Acknowledgments:
 
 Kevin
+
 Stein (CodeWithStein) - https://www.youtube.com/watch?v=ZxMB6Njs3ck&list=WL&index=8&t=5086s
+
 Colours - http://coolors.com/
+
 CSS - https://tailwindcss.com/
 
