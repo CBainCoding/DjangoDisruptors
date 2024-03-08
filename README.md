@@ -39,9 +39,11 @@ In this section, you should go over the different parts of your project, and des
 
 ### UX:
 
-Wireframe []
+Wireframe [![Front Page wireframe](https://github.com/CBainCoding/DjangoDisruptors/assets/152522470/c996835d-d4a9-49a9-b301-9463bbe2a798)
+]
 
-Mobile Wireframe []
+Mobile Wireframe [![Mobile wireframe](https://github.com/CBainCoding/DjangoDisruptors/assets/152522470/60b7961f-75ea-4454-a3c7-fee524870aee)
+]
 
 These are the wireframes for both Desktop and Mobile View, we strived to make them as accurate as possible on the deployed Website.
 
@@ -49,7 +51,8 @@ Colour Palette Img #
 
 The Colours were picked to be easy on the eyes and not too flashy, making a good contrast between text and background, enhancing readability. The site is also built to be simple and easy to navigate, also making it easy for users to list there Products.
 
-Database Diagram []
+Database Diagram [![Database Diagram](https://github.com/CBainCoding/DjangoDisruptors/assets/152522470/0bc23ed8-2178-4c8e-bc71-a0e48c975a06)
+]
 
 This was made using https://www.lucidchart.com/pages/ and was designed to fit the MVP.
 
