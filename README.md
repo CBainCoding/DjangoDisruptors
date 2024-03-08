@@ -27,10 +27,15 @@ The navbar is clear at the top making each option easily accessible to users. Th
 Features:
 
 ⦁	List items/services  for sale
+
 ⦁	Find items/services
+
 ⦁	Sign up and Login
+
 ⦁	Product Listing showing description, price and category
+
 ⦁	Search Function
+
 ⦁	Message Function
 
 User Stories:
