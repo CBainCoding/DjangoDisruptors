@@ -39,7 +39,9 @@ Features:
 ⦁	Message Function
 
 User Stories:
+
 User Story #1:
+
 View Item Listings 
 As a "site user", I can "view a item listings for purchase" so that "I can select which item I want to buy."
 
